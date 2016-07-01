@@ -1,0 +1,22 @@
+13:13:20 **** Build of configuration Debug for project Latest_Jai ****
+make all 
+Building file: ../src/Latest_Jai.c
+Invoking: GCC C Compiler
+/home/zigi/timesys/beaglebone_black/toolchain/bin/armv7l-timesys-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF "src/Latest_Jai.d" -MT "src/Latest_Jai.d" -o "src/Latest_Jai.o" "../src/Latest_Jai.c"
+../src/Latest_Jai.c: In function 'main':
+../src/Latest_Jai.c:22:11: warning: variable 'y' set but not used [-Wunused-but-set-variable]
+     int x,y;
+           ^
+../src/Latest_Jai.c:22:9: warning: variable 'x' set but not used [-Wunused-but-set-variable]
+     int x,y;
+         ^
+Finished building: ../src/Latest_Jai.c
+ 
+Building target: Latest_Jai
+Invoking: GCC C Linker
+/home/zigi/timesys/beaglebone_black/toolchain/bin/armv7l-timesys-linux-gnueabihf-gcc  -o "Latest_Jai"  ./src/Latest_Jai.o   
+Finished building target: Latest_Jai
+ 
+
+13:13:20 Build Finished (took 316ms)
+
