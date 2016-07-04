@@ -3,18 +3,18 @@
 ################################################################################
 
 ### Toolchain: beaglebone_black-armv7l-timesys-linux-gnueabihf-gcc-4.9.3- ###
-CC=/home/time64/timesys/beaglebone_black/toolchain/bin/armv7l-timesys-linux-gnueabihf-gcc
-STRIP=/home/time64/timesys/beaglebone_black/toolchain/bin/armv7l-timesys-linux-gnueabihf-strip
-CXX=/home/time64/timesys/beaglebone_black/toolchain/bin/armv7l-timesys-linux-gnueabihf-g++
-CPP=/home/time64/timesys/beaglebone_black/toolchain/bin/armv7l-timesys-linux-gnueabihf-cpp
-RANLIB=/home/time64/timesys/beaglebone_black/toolchain/bin/armv7l-timesys-linux-gnueabihf-ranlib
-DEBUGGER=/home/time64/timesys/beaglebone_black/toolchain/bin/armv7l-timesys-linux-gnueabihf-gdb
-AR=/home/time64/timesys/beaglebone_black/toolchain/bin/armv7l-timesys-linux-gnueabihf-ar
-AS=/home/time64/timesys/beaglebone_black/toolchain/bin/armv7l-timesys-linux-gnueabihf-as
-OBJCOPY=/home/time64/timesys/beaglebone_black/toolchain/bin/armv7l-timesys-linux-gnueabihf-objcopy
-OBJDUMP=/home/time64/timesys/beaglebone_black/toolchain/bin/armv7l-timesys-linux-gnueabihf-objdump
-LD=/home/time64/timesys/beaglebone_black/toolchain/bin/armv7l-timesys-linux-gnueabihf-ld
-NM=/home/time64/timesys/beaglebone_black/toolchain/bin/armv7l-timesys-linux-gnueabihf-nm
+CC=/home/zigi/timesys/beaglebone_black/toolchain/bin/armv7l-timesys-linux-gnueabihf-gcc
+STRIP=/home/zigi/timesys/beaglebone_black/toolchain/bin/armv7l-timesys-linux-gnueabihf-strip
+CXX=/home/zigi/timesys/beaglebone_black/toolchain/bin/armv7l-timesys-linux-gnueabihf-g++
+CPP=/home/zigi/timesys/beaglebone_black/toolchain/bin/armv7l-timesys-linux-gnueabihf-cpp
+RANLIB=/home/zigi/timesys/beaglebone_black/toolchain/bin/armv7l-timesys-linux-gnueabihf-ranlib
+DEBUGGER=/home/zigi/timesys/beaglebone_black/toolchain/bin/armv7l-timesys-linux-gnueabihf-gdb
+AR=/home/zigi/timesys/beaglebone_black/toolchain/bin/armv7l-timesys-linux-gnueabihf-ar
+AS=/home/zigi/timesys/beaglebone_black/toolchain/bin/armv7l-timesys-linux-gnueabihf-as
+OBJCOPY=/home/zigi/timesys/beaglebone_black/toolchain/bin/armv7l-timesys-linux-gnueabihf-objcopy
+OBJDUMP=/home/zigi/timesys/beaglebone_black/toolchain/bin/armv7l-timesys-linux-gnueabihf-objdump
+LD=/home/zigi/timesys/beaglebone_black/toolchain/bin/armv7l-timesys-linux-gnueabihf-ld
+NM=/home/zigi/timesys/beaglebone_black/toolchain/bin/armv7l-timesys-linux-gnueabihf-nm
 
 -include ../makefile.init
 

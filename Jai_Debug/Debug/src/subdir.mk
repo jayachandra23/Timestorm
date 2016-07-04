@@ -5,14 +5,17 @@
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
 ../src/Jai_Debug.c \
+../src/jaiadd.c \
 ../src/sub.c 
 
 OBJS += \
 ./src/Jai_Debug.o \
+./src/jaiadd.o \
 ./src/sub.o 
 
 C_DEPS += \
 ./src/Jai_Debug.d \
+./src/jaiadd.d \
 ./src/sub.d 
 
 
